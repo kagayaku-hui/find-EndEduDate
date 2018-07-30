@@ -1,4 +1,4 @@
-# Purpose: Find out the end date of audit partner's education;
+# Purpose: Find out the end date of audit partner's education
 # Author: kagayaku-hui
 
 

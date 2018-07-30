@@ -1,7 +1,7 @@
 # Purpose: Find out the end date of audit partner's education;
 # if there is at least one year gap between degrees, then choose the earlier end date of the degree;
 # if there is no gap year between degrees, then choose the latest end date of the degree;
-# Author: Tonghui Xu
+# Author: kagayaku-hui
 
 
 

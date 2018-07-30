@@ -1,6 +1,4 @@
 # Purpose: Find out the end date of audit partner's education;
-# if there is at least one year gap between degrees, then choose the earlier end date of the degree;
-# if there is no gap year between degrees, then choose the latest end date of the degree;
 # Author: kagayaku-hui
 
 
@@ -10,7 +8,7 @@ import pandas as pd
 from pandas import DataFrame
 from helper import partner, date
 # import excel spreadsheet "Partner_EduEndDate"
-path = r'C:\Users\xtong\Desktop\Audit Partner Project\Parter_EduEndDate.xlsx'
+path = r'Path\Parter_EduEndDate.xlsx'
 
 
 df = pd.read_excel(path)
@@ -55,7 +53,7 @@ df = DataFrame({'partner id': list(partner_work_dict.keys()), 'start work date':
 print(partner_work_dict)
 
 #save results to the following path
-destination = r'C:\Users\xtong\Desktop\result.xlsx'
+destination = r'Path'
 df.to_excel(destination, sheet_name='sheet1', index=False)
 
 

@@ -2,7 +2,6 @@
 # Author: kagayaku-hui
 
 
-
 import operator
 import pandas as pd
 from pandas import DataFrame
